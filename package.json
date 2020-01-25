@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-graphql-api",
+  "version": "1.0.0",
+  "description": "crud operations with express, mongodb and graphql",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js"
+  },
+  "author": "Asim Hafeez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2"
+  }
+}
